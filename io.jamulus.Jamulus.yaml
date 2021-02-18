@@ -5,14 +5,14 @@ sdk: org.kde.Sdk
 command: Jamulus
 rename-icon: jamulus
 finish-args:
-  - '--share=ipc'
-  - '--socket=x11'
-  - '--socket=wayland'
-  - '--share=network'
-  - '--filesystem=xdg-run/pipewire-0'
-  - '--socket=system-bus'
-  - '--socket=pulseaudio'
-  - '--device=all'
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  - --share=network
+  - --filesystem=xdg-run/pipewire-0
+  - --socket=system-bus
+  - --socket=pulseaudio
+  - --device=all
 modules:
   - name: jack2
     buildsystem: simple
@@ -22,7 +22,7 @@ modules:
       - ./waf install
     sources:
       - type: archive
-        url: 'https://github.com/jackaudio/jack2/archive/v1.9.16.tar.gz'
+        url: https://github.com/jackaudio/jack2/archive/v1.9.16.tar.gz
         sha256: e176d04de94dcaa3f9d32ca1825091e1b938783a78c84e7466abd06af7637d37
     cleanup: ['*']
   - name: jamulus
@@ -32,9 +32,9 @@ modules:
       - install -Dm644 io.jamulus.Jamulus.metainfo.xml /app/share/metainfo/io.jamulus.Jamulus.metainfo.xml
     sources:
       - type: git
-        url: 'https://github.com/jamulussoftware/jamulus.git'
-        tag: r3_6_2
-        commit: 337a48400538ebcb5e40b02c437a22f7d74abdfe
+        url: https://github.com/jamulussoftware/jamulus.git
+        tag: r_3_7_0beta1
+        commit: 10152e5dc09f57e9cabca2046844429305c2ecea
         x-checker-data:
           type: anitya
           project-id: 155434
