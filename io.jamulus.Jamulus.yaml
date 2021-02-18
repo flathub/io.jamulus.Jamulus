@@ -35,6 +35,10 @@ modules:
         url: 'https://github.com/jamulussoftware/jamulus.git'
         tag: r3_6_2
         commit: 337a48400538ebcb5e40b02c437a22f7d74abdfe
+        x-checker-data:
+          type: anitya
+          project-id: 155434
+          tag-template: r$version
       - type: file
         path: io.jamulus.Jamulus.desktop
       - type: file
