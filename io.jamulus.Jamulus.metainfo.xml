@@ -21,6 +21,7 @@
     <content_attribute id="social-audio">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="3_7_0beta3" date="2021-02-20"/>
     <release version="r3_6_2" date="2020-12-12"/>
   </releases>
 </component>
