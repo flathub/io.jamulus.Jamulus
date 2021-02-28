@@ -11,7 +11,7 @@ To use this package, you need to have [pipewire](https://pipewire.org/) set up i
 
 In Fedora 34, that will be the default audio handler. On previous versions, you can do that with:
 ```
-sudo dnf install --allowerasing pipewire-libjack
+sudo dnf install pipewire-jack-audio-connection-kit
 ```
 (more info at https://fedoraproject.org/wiki/Changes/DefaultPipeWire#How_To_Test)
 
