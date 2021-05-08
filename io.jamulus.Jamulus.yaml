@@ -38,6 +38,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 155434
+          stable-only: True
           tag-template: r$version
       - type: file
         path: io.jamulus.Jamulus.desktop
