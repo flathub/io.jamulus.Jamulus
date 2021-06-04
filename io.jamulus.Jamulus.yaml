@@ -33,12 +33,12 @@ modules:
     sources:
       - type: git
         url: https://github.com/jamulussoftware/jamulus.git
-        tag: r3_7_0
-        commit: 03bc4c1109e4a44db57fda57232c0bbb6ce9fa4a
+        tag: r3_8_0
+        commit: e74589131226e675a3616b52636ac48901922c5b
         x-checker-data:
           type: anitya
           project-id: 155434
-          stable-only: True
+          stable-only: true
           tag-template: r$version
       - type: file
         path: io.jamulus.Jamulus.desktop
