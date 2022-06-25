@@ -33,8 +33,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/jamulussoftware/jamulus.git
-        tag: r3_8_2nightly2
-        commit: f8d9e1114e7be8d2a8029e3f16997905fb5977b6
+        tag: r3_8_2nightly3
+        commit: 3a3d4e1ec0d6325abebcc176f8c2da300c7c4728
         x-checker-data:
           type: anitya
           project-id: 155434
