@@ -3,7 +3,7 @@ runtime: org.kde.Platform
 runtime-version: 5.15-21.08
 sdk: org.kde.Sdk
 command: Jamulus
-rename-icon: jamulus
+rename-icon: io.jamulus.jamulus
 finish-args:
   - --share=ipc
   - --socket=x11
