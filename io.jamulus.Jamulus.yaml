@@ -13,6 +13,7 @@ finish-args:
   - --socket=system-bus
   - --socket=pulseaudio
   - --device=all
+  - --session-bus
 modules:
   - name: jack2
     buildsystem: simple
