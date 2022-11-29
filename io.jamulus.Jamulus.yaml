@@ -10,10 +10,8 @@ finish-args:
   - --socket=wayland
   - --share=network
   - --filesystem=xdg-run/pipewire-0
-  - --socket=system-bus
   - --socket=pulseaudio
   - --device=all
-  - --session-bus
 modules:
   - name: jack2
     buildsystem: simple
