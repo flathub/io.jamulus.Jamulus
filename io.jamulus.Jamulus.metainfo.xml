@@ -2,12 +2,14 @@
 <component type="desktop">
   <id>io.jamulus.Jamulus</id>
   <metadata_license>MIT</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
   <name>Jamulus</name>
-  <developer_name>Jamulus</developer_name>
+  <developer_name>The Jamulus Development Team</developer_name>
   <url type="homepage">https://jamulus.io</url>
+  <url type="help">https://github.com/orgs/jamulussoftware/discussions</url>
   <summary>Jamulus. Internet Jam Session Software</summary>
   <description>
-    <p>The Jamulus software enables musicians to perform real-time jam sessions over the internet</p>
+    <p>The Jamulus software enables musicians to rehearse, play music or perform real-time jam sessions over the internet</p>
     <p>This is the build of Jamulus, packaged into a Flatpak.</p>
   </description>
   <screenshots>
