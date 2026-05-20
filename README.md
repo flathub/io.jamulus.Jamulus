@@ -52,7 +52,7 @@ To build this package locally you need to:
 
 2. Install flatpak runtime and Sdk:
    ```
-   flatpak install flathub org.kde.Platform//5.15 org.kde.Sdk//5.15
+   flatpak install flathub org.kde.Platform//6.10 org.kde.Sdk//6.10
    ```
 
 3. Build the application:
