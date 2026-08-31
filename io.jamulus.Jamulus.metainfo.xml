@@ -27,6 +27,9 @@
     <content_attribute id="social-audio">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="3_12_5" date="2026-08-31">
+      <description></description>
+    </release>
     <release version="3_12_1" date="2026-05-19">
       <url>https://github.com/jamulussoftware/jamulus/blob/main/ChangeLog#3121-2026-05-17</url>
     </release>
