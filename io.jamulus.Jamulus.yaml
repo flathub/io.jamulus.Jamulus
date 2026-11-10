@@ -1,6 +1,6 @@
 app-id: io.jamulus.Jamulus
 runtime: org.kde.Platform
-runtime-version: 6.10
+runtime-version: 6.11
 sdk: org.kde.Sdk
 command: Jamulus
 rename-icon: io.jamulus.jamulus
@@ -18,8 +18,8 @@ modules:
   - name: jamulus
     buildsystem: qmake
     build-commands:
-      - install -Dm644 io.jamulus.Jamulus.desktop /app/share/applications/io.jamulus.Jamulus.desktop
-      - install -Dm644 io.jamulus.Jamulus.metainfo.xml /app/share/metainfo/io.jamulus.Jamulus.metainfo.xml
+      - install -Dm644 io.jamulus.Jamulus.desktop -t /app/share/applications/
+      - install -Dm644 io.jamulus.Jamulus.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: git
         url: https://github.com/jamulussoftware/jamulus.git
