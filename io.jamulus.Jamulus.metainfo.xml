@@ -27,11 +27,14 @@
     <content_attribute id="social-audio">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="3_12_6" date="2026-11-19">
+      <url>https://github.com/jamulussoftware/jamulus/releases/tag/r3_12_6</url>
+    </release>
     <release version="3_12_1" date="2026-05-19">
-      <url>https://github.com/jamulussoftware/jamulus/blob/main/ChangeLog#3121-2026-05-17</url>
+      <url>https://github.com/jamulussoftware/jamulus/releases/tag/r3_12_1</url>
     </release>
     <release version="3_12_0" date="2026-05-03">
-      <url>https://github.com/jamulussoftware/jamulus/blob/main/ChangeLog#3120-2026-05-02</url>
+      <url>https://github.com/jamulussoftware/jamulus/releases/tag/r3_12_0</url>
     </release>
     <release version="3_11_0" date="2024-10-04"/>
     <release version="3_10_0" date="2023-09-09"/>
